@@ -1,4 +1,22 @@
-This is a side passion I been wanting to do for a while:). If you fine any errors, please let me know!!!
+This is a passion project I’ve wanted to pursue for a while:). If you find any errors, please let me know!
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3e2c3925-b929-40fb-822a-9deeb70dd5db"/>
+</p>
+
+# Some background 
+Before we start, let's clarify a few things. There are many microcontrollers that work well with FreeRTOS, and even ZephyrRTOS. I am using the [Nordic Semiconductor nRF52DK](https://www.nordicsemi.com/Products/Development-hardware/nRF52-DK), specifically the [nrf52832 (PCA10040) version](https://www.nordicsemi.com/Products/nRF52832), After wasted my time on my thesis with the newer nRF53DK, I realized it was more complex than necessary. Instead of investing more time learning a new board, I’m using my existing skills to set up FreeRTOS on a simpler Nordic board.
+
+
+## What is ZephyrRTOS and FreeRTOS?
+[ZephyrRTOS](https://docs.zephyrproject.org/latest/index.html) and [FreeRTOS](https://www.freertos.org/Documentation/02-Kernel/07-Books-and-manual/01-RTOS_book) are both real-time operating systems (RTOS) used for embedded systems development. ZephyrRTOS is an open-source, scalable OS designed for resource-constrained devices, supporting various hardware architectures and offering features like native networking stacks and device drivers. FreeRTOS, also open-source, is known for its simplicity and minimal footprint, making it widely adopted in small microcontroller applications. While FreeRTOS focuses on a lightweight kernel for basic scheduling and task management, Zephyr provides a more feature-rich environment with support for multiple communication protocols and file systems.
+
+
+
+
+
+
+
 
 # Installing Segger Embedded Studio (SES)
 We could use the Visual Studio nRF extension, but keep in mind that it primarily focuses on ZephyrRTOS, while FreeRTOS is a third-party platform. This means we'd have to manually link certain files, CMake, and GCC to get FreeRTOS working. Instead, we’re going to simplify the process by installing [Segger Embedded Studio](https://www.segger.com/downloads/embedded-studio/).
@@ -39,7 +57,19 @@ Once you have downloaded the files, you should see two folders. Extract both. We
 
 Copy both of these folders and save them in a secure location. I'll be placing them in my project folder.
 
-# Using the sample file for FreeRTOS nRF52DK
+# Using the example FreeRTOS file from nRF5_DK folder
+I will be using the **blinky_freertos** sample. Open Segger Embedded Studio, click on *Open Existing Application*, and locate the **blinky_freertos** folder. In that folder, find the file with the ***.emProject*** extension. Follow this directory path to locate the project file:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cc7d717b-dce8-481f-a149-8974b9101bba"/>
+  Directory Path: ~/nRF5_SDK_17.1.0/examples/peripheral/blinky_freertos/pca10040/blank/ses/
+</p>
+
+## Configuring the Target Board
+
+
+
+
 
 
 
