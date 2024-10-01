@@ -87,8 +87,38 @@ This next step is optional, but why have a Nordic board and not take advantage o
 Make sure your nRF52DK is connected, select device, find the board, and drag the **SoftDevice** file. And Flash the board. You are done!
 
 
+# Flashing your nRF52DK on SES
+
+## Connecting the board through J-Link
+First, we need to ensure that the nRF52DK is connected in SES. To do this, check the SES menu:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d415a6cd-8bb2-4b0e-8156-acccf1648a80"/>
+</p>
 
 
+<p align="center">
+  <img src=""/>
+</p>
+
+
+In the **SES** menu, select **Target**, then choose **Connect J-Link**:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8f3fe78a-b8e0-48f3-8702-e15dbf773127"/>
+</p>
+
+
+
+
+Next, check the bottom of the screen where it says **Output**. It should display either *Connecting J-Link using USB* or *Target connection has been lost*:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4f80d3c8-22be-4617-bd4c-92095f9bdecb"/>
+</p>
+
+## Building the Project
+Go to **Build** then select **Build Solution**:
+![image](https://github.com/user-attachments/assets/50dc698a-96f0-4f2e-b9d0-f46cc43d4043)
+
+Where the **Output** should state:
 
 
 
