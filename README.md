@@ -65,12 +65,26 @@ I will be using the **blinky_freertos** sample. Open Segger Embedded Studio, cli
   Directory Path: ~/nRF5_SDK_17.1.0/examples/peripheral/blinky_freertos/pca10040/blank/ses/
 </p>
 
+Where you should get the following:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e020bde9-2199-4119-b34e-a056eceae7ef"/>
+</p>
+
+
+
 ## Configuring the Target Board
+If you have selected the *PCA10040* you should be fine as long as you are using the same board, *nRF52832*.
+
+# Optional: BLE Integration with FreeRTOS
+This next step is optional, but why have a Nordic board and not take advantage of its BLE features? For this, you'll need to download [nRF Connect for Desktop](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop) We're going to use it to flash the board with the **SoftDevice** file. Once downloaded, open the application and install the **Programmer** tool from within the app. As shown in the image, disregard any other applications I’ve installed in nRF Connect for Desktop.
 
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/05383bb7-85fc-486f-b547-f41c98b631bf"/>
+</p>
 
 
-
+Make sure your nRF52DK is connected, select device, find the board, and drag the **SoftDevice** file. And Flash the board. You are done!
 
 
 
