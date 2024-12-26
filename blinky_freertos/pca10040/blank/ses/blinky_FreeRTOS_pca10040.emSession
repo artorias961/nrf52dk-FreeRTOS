@@ -12,6 +12,7 @@
   <ProjectSessionItem path="blinky_FreeRTOS_pca10040"/>
   <ProjectSessionItem path="blinky_FreeRTOS_pca10040;blinky_FreeRTOS_pca10040"/>
   <ProjectSessionItem path="blinky_FreeRTOS_pca10040;blinky_FreeRTOS_pca10040;Application"/>
+  <ProjectSessionItem path="blinky_FreeRTOS_pca10040;blinky_FreeRTOS_pca10040;nRF_Log"/>
  </Project>
  <Register1/>
  <Register2/>
@@ -36,7 +37,8 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="../../../main.c" left="0" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="../../../main.c" left="0" selected="1" top="87" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="../config/sdk_config.h" left="0" top="540" codecName="Default"/>
  </Files>
- <EMStudioWindow activeProject="blinky_FreeRTOS_pca10040" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <EMStudioWindow activeProject="blinky_FreeRTOS_pca10040" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>
